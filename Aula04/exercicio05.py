@@ -12,4 +12,3 @@ else:
         print(f"Tivemos um total de {contador} número negativo")
     else:
         print(f"Tivemos um total de {contador} números negativos")
-
