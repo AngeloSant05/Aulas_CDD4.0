@@ -1,6 +1,6 @@
 contador_posi = 10
 contador_nega = 0
-soma_nega= 0
+soma_nega = 0
 
 for x in range(0, 10):
     num = int(input("Digite um número: "))
