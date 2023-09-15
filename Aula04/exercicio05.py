@@ -16,3 +16,4 @@ else:
     else:
         print(f"Tivemos um total de {contador} números negativos")
         print(f"E essa foi a soma dos números negativos: {soma_nega}")
+
