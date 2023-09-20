@@ -1,12 +1,12 @@
 cont = 1
 soma = 0
-quant = int(input("Digite a quantidade de vezes que quer repetir: "))
+qtd = int(input("Informe a quantidade de notas: "))
 
-while cont <= quant:
+while cont <= qtd:
     num = float(input("Digite sua nota: "))
     soma += num
     cont += 1
-print(f"{soma / quant}")
+print(f"{soma / qtd}")
 
 # Outra forma de calcular
 
