@@ -5,8 +5,8 @@ cont = 1
 while senha != senha_solic:
     senha_solic = input("Senha errada.\nTente novamente: ")
     cont += 1
-    if cont > 3:
-        print("Número de tentativas alcançadas.")
+    if cont >= 3:
+        print("Número de tentativas alcançadas.\n       Usuário bloqueado.")
         break
 else:
     print("Senha correta")
