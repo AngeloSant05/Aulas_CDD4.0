@@ -3,9 +3,8 @@ mes_atual = int(input("Em que mês estamos: (1 à 12) \n"))
 mes_nascimento = int(input("Digite o mês que você nasceu: (1 à 12) \n"))
 idade = int(input("Digite sua idade: "))
 
-nascimento = ano_atual - idade
-
 if mes_atual >= mes_nascimento:
-    print(f"Você nasceu em {nascimento}.")
+    nascimento = ano_atual - idade
 else:
-    print(f"Você nasceu em {nascimento - 1}.")
+    nascimento = ano_atual - idade - 1
+print(f"Você nasceu em {nascimento}.")
