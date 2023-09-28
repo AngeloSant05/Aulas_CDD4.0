@@ -7,6 +7,7 @@ while decisao == "s" or decisao == "S":
         num = float(input("Digite um número: "))
         soma += num
     media = soma / 4
+    print(f"Valor da soma é: {soma}")
     print(f"{media}")
     decisao = input("Deseja continuar? (s/n) \n")
 else:

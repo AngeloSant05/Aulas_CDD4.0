@@ -5,4 +5,5 @@ for x in range(quantidade):
     num = float(input("Digite um número: "))
     soma += num
 media = soma / quantidade
+print(f"Valor da soma é: {soma}")
 print(f"{media}")
