@@ -1,5 +1,5 @@
 As versões .1 dos arquivos acima se tratam de versões que adicionam 
-sistema de repetição. Com exceção dos exercícios: 01, 02, 03, 04. 
+estrutura de repetição. Com exceção dos exercícios: 01, 02, 03, 04. 
 
 Os exercícios citados já possuem uma estrutura de repetição embutida.
 
