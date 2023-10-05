@@ -44,8 +44,8 @@ def contagem_vogal(texto):
     print(f"O texto possui {contador} vogais")
 
 
-def estoque(produto, qtd, valor_und):
-    valor_estoque = qtd * valor_und
+def estoque(produto, qtd, valor):
+    valor_estoque = qtd * valor
     return valor_estoque
 
 
