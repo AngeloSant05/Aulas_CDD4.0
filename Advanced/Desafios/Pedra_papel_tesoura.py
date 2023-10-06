@@ -14,36 +14,30 @@ while pontuacao1 != 3 and pontuacao2 != 3:
         while jogador2 != "0" and jogador2 != "1" and jogador2 != "2":
             jogador2 = input("Jogada inválida. Digite novamente: ")
         else:
-            if jogador1 == "0":
-                if jogador2 == "0":
-                    print("\nEmpate.\n")
-                elif jogador2 == "1":
-                    print("\nJogador 2 ganhou a rodada.\n")
-                    pontuacao2 += 1
-                else:
-                    print("\nJogador 1 ganhou a rodada.\n")
-                    pontuacao1 += 1
-
-            if jogador1 == "1":
-                if jogador2 == "0":
-                    print("\nJogador 1 ganhou a rodada.\n")
-                    pontuacao1 += 1
-                elif jogador2 == "1":
-                    print("\nEmpate.\n")
-                else:
-                    print("\nJogador 2 ganhou a rodada.\n")
-                    pontuacao2 += 1
-
-            if jogador1 == "2":
-                if jogador2 == "0":
-                    print("\nJogador 2 ganhou a rodada.\n")
-                    pontuacao2 += 1
-                elif jogador2 == "1":
-                    print("\nJogador 1 ganhou a rodada.\n")
-                    pontuacao1 += 1
-                else:
-                    print("\nEmpate.\n")
-            print(pontuacao1, pontuacao2)
+            if jogador1 == jogador2:
+                print("Empate!")
+            else:
+                if jogador1 == "0":
+                    if jogador2 == "1":
+                        print("\nJogador 2 ganhou a rodada.\n")
+                        pontuacao2 += 1
+                    else:
+                        print("\nJogador 1 ganhou a rodada.\n")
+                        pontuacao1 += 1
+                if jogador1 == "1":
+                    if jogador2 == "0":
+                        print("\nJogador 1 ganhou a rodada.\n")
+                        pontuacao1 += 1
+                    else:
+                        print("\nJogador 2 ganhou a rodada.\n")
+                        pontuacao2 += 1
+                if jogador1 == "2":
+                    if jogador2 == "0":
+                        print("\nJogador 2 ganhou a rodada.\n")
+                        pontuacao2 += 1
+                    else:
+                        print("\nJogador 1 ganhou a rodada.\n")
+                        pontuacao1 += 1
 
 if pontuacao1 == 3:
     print("Jogador 1 venceu a partida.")
