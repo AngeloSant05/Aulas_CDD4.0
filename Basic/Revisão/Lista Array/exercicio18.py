@@ -4,4 +4,4 @@ b = []
 
 for x in range(6, -1, -1):
     b.append(a[x])
-print(b)
+print(f"b={b}")
