@@ -1,5 +1,26 @@
 from Advanced.Python.biblioteca import *
 
+palavra1 = ["a", "b", "a", "c", "a", "t", "e"]
+palavra2 = ["d", "o", "z", "e"]
+palavra3 = ["t", "r", "e", "v", "a", "s"]
+palavra4 = ["l", "u", "z"]
+palavra5 = ["j", "a", "m", "b", "a", "l", "a", "i", "a"]
+contador = 0
+palavra_escolhida = 1
+entrada = input("Digite uma letra: ")
+resposta = []
+
+if palavra_escolhida == 1:
+    print("_ _ _ _ _ _ _")
+    while contador < 6:
+        for x in entrada:
+            if x in palavra1:
+
+            else:
+                contador += 1
+
+from Advanced.Python.biblioteca import *
+
 usuario = []
 erros = 0
 venceu = False

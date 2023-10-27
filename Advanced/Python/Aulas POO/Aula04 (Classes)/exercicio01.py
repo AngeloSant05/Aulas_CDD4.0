@@ -12,7 +12,7 @@ class Pessoa:
         if self.andando == False and self.comendo == False and self.dormindo == False:
             self.andando = True
             print(f"{self.nome} foi andar. . .")
-        else:
+        elif self.andando == True:
             print(f"{self.nome} ainda está andando")
 
     def parar_andar(self):
@@ -38,10 +38,10 @@ class Pessoa:
             print(f"{self.nome} não está comendo.")
 
     def dormir(self):
-        if self.dormindo == False:
+        if self.andando == False and self.comendo == False and self.dormindo == False:
             self.dormindo = True
             print(f"{self.nome} foi dormir. . .")
-        else:
+        elif self.dormindo == True:
             print(f"{self.nome} já está dormindo")
 
     def acordar(self):
@@ -53,9 +53,9 @@ class Pessoa:
 
 p1 = Pessoa("Ranna", 19, 48)
 print(p1.nome, p1.idade, p1.peso)
-p1.andar()
-p1.parar_andar()
-p1.comer("biscoito")
-p1.parar_comer()
-p1.dormir()
-p1.acordar()
+# p1.andar()
+# p1.parar_andar()
+# p1.comer("biscoito")
+# p1.parar_comer()
+# p1.dormir()
+# p1.acordar()
