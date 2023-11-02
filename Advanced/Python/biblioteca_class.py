@@ -144,3 +144,25 @@ class Gato(Animal):
 
     def miar(self):
         print(f"O {self.nome} foi miando. . .")
+
+class Cachorro(Animal):
+    def __init__(self, nome, cor):
+        super().__init__(nome, cor)
+
+    def latir(self):
+        print(f"O {self.nome} foi latindo . . .")
+
+class Coelho(Animal):
+    def __init__(self, nome, cor):
+        super().__init__(nome, cor)
+
+    def grunhir(self):
+        print(f"O {self.nome} foi grunhindo . . .")
+
+class Vaca(Animal):
+    def __init__(self,nome, cor):
+        super().__init__(nome, cor)
+
+    def mugir(self):
+        print(f"O {self.nome} foi mugindo . . .")
+
